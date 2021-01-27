@@ -2,7 +2,7 @@
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-
+v1.02
 
 // game loop
 potencia=90
