@@ -124,17 +124,17 @@ while (true) {
     if ((nextCheckpointAngle>90)||(nextCheckpointAngle<-90)) {
             potencia=0
         } else if ((nextCheckpointAngle>80)||(nextCheckpointAngle<-80)) {
-            potencia=30
+            potencia=45
         } else if ((nextCheckpointAngle>70)||(nextCheckpointAngle<-70)) {
-            potencia=40
+            potencia=55
         } else if ((nextCheckpointAngle>60)||(nextCheckpointAngle<-60)) {
-            potencia=50
+            potencia=65
         } else if ((nextCheckpointAngle>50)||(nextCheckpointAngle<-50)) {
-            potencia=60
+            potencia=75
         } else if ((nextCheckpointAngle>40)||(nextCheckpointAngle<-40)) {
-            potencia=80
+            potencia=85
         } else if ((nextCheckpointAngle>30)||(nextCheckpointAngle<-30)) {
-            potencia=90
+            potencia=95
         } else {
             potencia=100
         }
