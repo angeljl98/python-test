@@ -15,6 +15,7 @@ except ValueError:
     print("15"+" is not here")
 o=columna.remove(3) #eliminar de la lista
 o=columna.insert(len(columna),99) #insertar al final
+o=columna.insert(3,"GG") #inserta en la posición 3
 o=columna.count(99) #ver en donde está el 99
 o=columna.reverse() #voltear un array
 file1=a[0]
@@ -29,3 +30,4 @@ print(columna)
 word1="creative"
 word2="reactive"
 print(sorted(word1)==sorted(word2)) #sorted separa en vectores y además compara
+print(int("ff", 16)) #convierte de hexadecimal a decimal

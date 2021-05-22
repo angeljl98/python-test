@@ -30,3 +30,6 @@ print(x3.lstrip("E")) #remueve el inicio
 print(x3.zfill(25)) #rellena con 0 los espacios faltantes
 print(x3.ljust(30,"*")) #rellena a la derecha con los caracteres restantes
 print(x3.title()) #imprime todas las palabras con el inicio en mayúsculas
+print(ord("A")) # indica el valor ascii de A
+print(ord("Z")) # indica el valor ascii de Z
+print(3*"Hola") # indica Hola 3 veces
