@@ -5,6 +5,7 @@ fila=a[:][1]
 columna=a[0]
 print(b)
 print(columna)
+o=a[::-1] #invertir orden
 o=columna.append(9) #agregar
 o=columna.extend([1,2]) #agregar al final
 o=columna.pop(4) #elimina el elemento 4
